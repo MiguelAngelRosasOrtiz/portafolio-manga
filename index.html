@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menú Fijo</title>
+</head>
+<body>
+    <header> 
+            <nav class="navegacion bordes-laterales">
+                <a href="#sobre-mi" class="navegacion__enlace centrar-texto">Sobre mi</a>
+                <a href="#servicios" class="navegacion__enlace centrar-texto">Servicios</a>
+                <a href="#contacto" class="navegacion__enlace centrar-texto">Contacto</a>
+            </nav>
+    </header>
+
+    <main class="contenedor bordes-laterales sobre-mi" id="sobre-mi">
+        <h2 class="centrar-texto titulo-seccion">Sobre mi</h2>
+        <div class="sobre-mi__contenido bordes-horizontales">
+            <div class="sobre-mi__texto">
+                <p class="centrar-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi dolor velit officia provident obcaecati ut vel temporibus vitae praesentium consequatur, tenetur non. Perferendis delectus ab maxime debitis accusamus quasi!</p>
+            </div>
+            <div class="sobre-mi__imagen">
+                <img src="img/perfil2.jpg" alt="imagen de Miguel Angel Ortiz, el desarrolador de esta página">
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor bordes-laterales servicios" id="servicios">
+        <h2 class="centrar-texto titulo-seccion">Servicios</h2>
+        <div class="servicios__contenedor bordes-horizontales">
+            <div class="servicios__contenido servicios__contenido--hosting">
+                <h3 class="servicios__titulo">Hosting</h3>
+                <ul>
+                    <li>Orientacion sobre diferentes plataformas de hosting</li>
+                    <li>Subida del citio a la plataforma de alojamiento preferida</li>
+                    <li>Seguimiento y actualizacion gratuita los primeros 6 meses</li>
+                </ul>
+            </div>
+            <div class="servicios__contenido servicios__contenido--diseño">
+                <h3 class="servicios__titulo">Diseño</h3>
+                <p>Maquetación de tu citio con los colores de tu marca o negocio, logotipo, distribución de elementos etc.</p>
+            </div>
+        </div>
+        <div class="servicios__contenido--caja-desarrollo">
+            <div class="servicios__contenido servicios__contenido--desarrollo">
+                <h3 class="servicios__titulo">Diseño web</h3>
+                <p class="centrar-texto">Creación de un citio web de uso informativo mediante HTML y CSS, cumpliendo con estandares de posicionamiento web y
+                accesibilidad. un sitio facil de mantener con código ordenado, claro y documentado</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto bordes-horizontales bordes-laterales contenedor" id="contacto">
+        <h2 class="centrar-texto titulo-seccion">Contacto</h2>
+        <div class="contacto">
+            <div class="contacto__contenido contacto__contenido--1">
+                <h3 class="titulo-medio centrar-texto">Teléfono</h3>
+                <p class="contacto__parrafo contacto__parrafo--1 no-margin centrar-texto">55-5555-5555</p>
+            </div>
+            <div class="contacto__contenido contacto__contenido--2">
+                <h3 class="titulo-medio centrar-texto">Correo</h3>
+                <p class="contacto__parrafo contacto__parrafo--2 no-margin centrar-texto">Correo@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer contenedor">
+        <p class="footer__parrafo centrar-texto">Esta web es una practica. no se realizan ninguno de los servicios mensionados.</p>
+    </footer>
+
+</body>
+</html>
